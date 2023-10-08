@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MusicArchive</title>
+  <title>MusicScanner</title>
   <style>
     .ul {
       display: flex;
@@ -18,21 +18,31 @@
       border-bottom: 1px solid grey;
       padding: 5px;
     }
+
     .path{
       color: rgb(63, 63, 63);
       font-weight: 700;
       font-family: monospace;
     }
+
     .path::before {
       content: "-";
       padding-right: 5px;
     }
+
     .file{
       max-width: 500px;
     }
+
     .file::before {
       content: "-";
       padding-right: 5px;
+    }
+
+    .time{
+      color: rgb(63, 63, 63);
+      font-weight: 700;
+      font-family: monospace;
     }
 
     .link {
